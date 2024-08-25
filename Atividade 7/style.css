@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#titulo1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px ;
+}
+
+a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    max-width: 540px;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#imagens1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#imagens2 {
+    text-align: center;
+    max-width: 800px;
+}
+
+#enredo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+}
+
+#assistir {
+    margin: 20px;
+    padding: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#link {
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+}
